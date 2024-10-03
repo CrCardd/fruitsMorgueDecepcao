@@ -17,7 +17,7 @@ body::before {
 
     background: url('./idea02.png');
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size: 100vw;
     z-index: -1;
 }
 
@@ -60,7 +60,8 @@ body::before {
     font-weight: 400;
     font-style: normal;
 
-    font-size: 6rem;
+    text-align: center;
+    font-size: 15vw;
     color: rgb(175, 33, 128);
 }
 
@@ -76,7 +77,8 @@ body::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 3.5rem;
+    text-align: center;
+    font-size: 6vw;
 
     color: aliceblue;
 }
